@@ -6,7 +6,7 @@ export default function Results(props) {
     return (
     <div className="Results">
       <section>
-      <h2 className="text-uppercase">{props.results.word}</h2>
+      <h2 className="the-word">{props.results.word}</h2>
       {props.results.meanings.map(function(meaning, index) {
         return (
           <div key={index}>

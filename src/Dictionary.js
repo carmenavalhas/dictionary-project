@@ -28,8 +28,8 @@ export default function Dictionary() {
     <div className="Dictionary">
      <section>
       <h2 className="mb-4">What word do you want to look up?</h2>
-      <form onSubmit={search}>
-      <input type="search" onChange={handleKeywordChange} placeholder="Type a word here.."/>
+      <form className="text-center" onSubmit={search}>
+      <input className="text-center" type="search" onChange={handleKeywordChange} placeholder="Type a word here.."/>
       </form>
       </section>
       <Results results={results} />
