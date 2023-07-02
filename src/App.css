@@ -1,14 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  font-family: 'Playfair Display', serif;
+  margin: 20px auto;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+}
+
 .App-header {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .App-logo {
-  max-width: 160px;
+  max-width: 150px;
   display: block;
   margin: 0 auto;
+}
+
+.App .container {
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+.App h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #9A6455;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+@media (max-width: 1000px) {
+  .App h1 {
+    font-size: 20px;
+}
 }

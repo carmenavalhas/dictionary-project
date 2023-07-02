@@ -1,4 +1,4 @@
-import logo from './cn-logo.png';
+import logo from './image-dictionary.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Dictionary from "./Dictionary.js";
 
@@ -9,9 +9,9 @@ export default function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
+           <h1>Dictionary</h1>
         <img src={logo} className="App-logo
         img-fluid" alt="logo" />
-   <h1 className='title'>Carmen's Dictionary</h1>
       </header>
       <main>
         <Dictionary />
