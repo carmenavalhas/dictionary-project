@@ -18,7 +18,7 @@
 
 .App .container {
   margin: 0 auto;
-  padding: 10px 40px;
+  padding: 10px 80px;
 }
 
 .App h1 {
@@ -39,6 +39,11 @@
 
 @media (max-width: 1000px) {
   .App h1 {
-    font-size: 20px;
+    font-size: 28px;
 }
+
+  .App .container {
+  padding: 10px 40px;
+  }
+
 }
