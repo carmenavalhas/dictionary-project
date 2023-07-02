@@ -10,9 +10,10 @@ export default function Dictionary() {
   }
  
   function search(event) {
-    //documentation: https://www.shecodes.io/learn/apis/dictionary
+    event.preventDefault();
+    // documentation: https://dictionaryapi.dev/
+    let key = "442601ab0f43da939c1bto9077411c63";
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
     }
 
@@ -20,9 +21,12 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
 
-  return <div className="Dictionary">
+  return (
+    <div className="Dictionary">
     <form onSubmit={search}>
       <input type="search" onChange={handleKeywordChange} />
     </form>
-  </div>;
+  </div>
+  );
 }
+
