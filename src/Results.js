@@ -7,14 +7,17 @@ export default function Results(props) {
     <div className="Results">
       <section>
       <h2 className="the-word">{props.results.word}</h2>
+       </section>
       {props.results.meanings.map(function(meaning, index) {
         return (
           <div key={index}>
+           <section>
             <Meaning meaning={meaning} />
+            </section>
           </div>
         );
       })}
-      </section>
+     
       </div>
       );
   } else {
