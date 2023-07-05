@@ -18,10 +18,9 @@ export default function App() {
       </main>
        <footer className='App-footer'>
         <small>Coded by Carmen Navalhas</small>
-    </footer>
-    
+     </footer>
     </div>
-    </div>
+  </div>
   );
 }
 
