@@ -1,3 +1,9 @@
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 2;
+  font-weight: bold;
+}
+
 .examples,
 .Synonyms {
   color: #70757a;
@@ -10,8 +16,3 @@
   font-weight: bold;
 }
 
-.Meaning h3 {
-  font-size: 24px;
-  line-height: 2;
-  font-weight: bold;
-}

@@ -29,8 +29,16 @@ export default function Dictionary() {
      <section>
       <h2 className="mb-4 text-center">What word do you want to look up?</h2>
       <form className="text-center" onSubmit={search}>
-      <input className="text-center text-muted" type="search" onChange={handleKeywordChange} placeholder="Type a word here.."/>
+      <input 
+      className="text-center text-muted" 
+      type="search" 
+      onChange={handleKeywordChange} 
+      placeholder="Type a word here.."
+      />
       </form>
+      <div className="hint mt-2 text-muted">
+     <em> Suggested words:</em> sunset, wine, plant...
+      </div>
       </section>
       <Results results={results} />
   </div>

@@ -22,11 +22,9 @@ export default function Results(props) {
       {props.results.meanings.map(function
       (meaning, index) {
         return (
-          <div key={index}>
-           <section>
+          <section key={index}>
             <Meaning meaning={meaning} />
             </section>
-          </div>
         );
       })}
       </div>
