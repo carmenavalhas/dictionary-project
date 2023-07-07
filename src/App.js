@@ -1,26 +1,37 @@
 import logo from './image-dictionary.png';
 import 'bootstrap/dist/css/bootstrap.css';
-import Dictionary from "./Dictionary.js";
+import Dictionary from './Dictionary';
 
 import './App.css';
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <div className='container'>
-      <header className="App-header">
-           <h1>Dictionary</h1>
-        <img src={logo} className="App-logo
-        img-fluid" alt="logo" />
-      </header>
-      <main>
-        <Dictionary />
-      </main>
-       <footer className='App-footer'>
-        <small>Coded by Carmen Navalhas</small>
-     </footer>
+        <header className="App-header">
+          <h1>Dictionary</h1>
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+
+
+       <footer class="ps-5 pe-5">
+          <div class="row d-flex justify-content-center">
+             <div class="col-lg-6">
+            2023, open {" "}
+            <a href="https://github.com/carmenavalhas/dictionary-project">source</a>
+             {" "} ⎪ coded by {" "}
+            Carmen Navalhas
+          </div>
+          </div>
+              </footer>
+
+
+      </div>
     </div>
-  </div>
   );
 }
 
+export default App;
