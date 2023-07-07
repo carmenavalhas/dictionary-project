@@ -21,7 +21,9 @@ function App() {
           <div class="row d-flex justify-content-center">
              <div class="col-lg-6">
             2023, open {" "}
-            <a href="https://github.com/carmenavalhas/dictionary-project">source</a>
+            <a href="https://github.com/carmenavalhas/dictionary-project" 
+            target="_blank"
+            rel="noopener noreferrer">source</a>
              {" "} ⎪ coded by {" "}
             Carmen Navalhas
           </div>
